@@ -1,0 +1,47 @@
+
+.body {
+    background-color: white;
+    font-size: 'Raleway', sans-serif;
+    
+}
+
+html {
+    scroll-behavior: smooth !important;
+}
+
+
+
+.tooltip {
+    background-color: black;
+
+}
+
+ul {
+    color: white;
+}
+
+
+
+.carousel {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.quienes {
+    color: dark;
+
+}
+
+#descripcion {
+    display: flex;
+    text-align: center;
+}
+
+footer p{
+    font-style: bold;
+    text-align: left;
+}
+
+footer i{
+    text-align: justify right;
+}
