@@ -8,4 +8,8 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 //*alerta inicio pag//*
 alert("Bienvenido a Viajes Chile")
 
+$(".card-text").click(function () {
+   $(".card-text").toggle();
+
+});
 
