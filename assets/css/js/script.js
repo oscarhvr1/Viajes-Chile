@@ -8,8 +8,17 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 //*alerta inicio pag//*
 alert("Bienvenido a Viajes Chile")
 
-$(".card-text").click(function () {
+//*toggle bloque destacados//*
+
+$(".card-title").click(function () {
    $(".card-text").toggle();
 
 });
+
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+
+
 
